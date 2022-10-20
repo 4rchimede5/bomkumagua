@@ -1,0 +1,299 @@
+#page{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    right:0;
+    flex:1 1 100px;
+    flex-wrap:wrap;
+    cursor:all-scroll;
+    }
+    
+#intro{
+    display:flex;
+    box-sizing:content-box;
+    position:absolute;
+    top:0;
+    right:0;
+    justify-content:center;
+    animation-name:intro;
+    animation-delay:0.2s;
+    animation-duration:0.2s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-timing-function:ease-in-out;  
+    z-index:1;
+    background:url("publico.png");  
+    background-size:cover;
+    min-height:100%;
+    min-width:100%;
+    }
+    
+#vid{
+    display:flex;
+    align-self:center;
+    filter:drop-shadow(200px 100px 200px white) drop-shadow(-200px -100px 200px white);
+    }
+
+@keyframes intro{
+0%{opacity:1;}
+99%{opacity:0;}
+100%{opacity:0;}
+    }
+
+#title{
+    display:flex;
+    flex: 1 1 100px;
+    position:fixed;
+    flex-direction:column;
+    width:100%;
+    backdrop-filter:blur(10px);
+    filter:drop-shadow(10px 10px 10px white);
+    }
+
+#inner{
+    display:flex;
+    flex:1 1 100px;
+    flex-wrap:flex;
+    letter-spacing:0.2em;
+    color:white;
+    font-weight:200;
+    font-size:120px;
+    font-family:monospace;
+    text-shadow:0px 0px 10px darkgreen;
+    align-self:center;
+    }
+    
+#bckg{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    z-index:-1;
+    top:0;
+    right:0;
+    align-content:center;
+    }
+
+
+#bckg1{
+    display:flex;
+    background-size:contain;
+    background-image:url("bckg1.png");
+    background-size:100% 100%;
+    height:55.5em;
+    width:100%;display:grid;
+    grid-column:1 / span 3;
+    grid-row:1/span 1;
+    box-sizing:border-box;
+    order:1;
+    background-position:relative;
+    z-index:-1;
+    background-attachment:fixed;
+    top:0;
+    }
+
+#bckg2{
+    display:grid;
+    background-attachment:scroll;
+    background-size:contain;
+    background-color:black;
+    background-size:100% 100%;
+    box-sizing:border-box;
+    height:55.5em;
+    width:100%;
+    order:2;
+    grid-auto-columns:25% 50% 25%;
+    grid-auto-rows:18% auto;
+    font-family:monospace;
+    font-size:20px;
+    filter:drop-shadow(0px 15px 15px black) drop-shadow(0px -15px 15px black);
+    text-align:center;
+
+    }
+
+#banerfundar{
+    display:flex;
+    flex:1 1 100px;
+    grid-column:1 / span 3;
+    grid-row:1/span 1;
+    align-items:center;    
+    align-content:center;
+
+    }
+
+#banertxt{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    text-align:center;;
+    line-height:2em;
+    color:gold;
+    letter-spacing:0.1em;    
+    }
+    
+#banerizq{
+    display:flex;
+    flex: 1 1 100px;
+    grid-column:1 / span 1;
+    grid-row:2/span 1;
+    background-image:url("alvaro.png");
+    background-repeat:no-repeat;
+    mix-blend-mode:lighten;
+    mix-blend-mode:exclusion;
+    box-shadow: 5px 5px 10px black inset, -5px -5px 10px black inset;
+    }
+
+#banercen{
+    display:flex;
+    flex: 1 1 100px;
+    flex-flow:column;
+    grid-column:2 / span 1;
+    grid-row:2/span 1;
+    color:gold;
+    text-align:center;
+    line-height:4.5em;
+    padding:0px 50px 0px 50px;
+    letter-spacing:0.1em;
+    
+    }
+
+#banerder{
+    display:flex;
+    flex:1 1 100px;
+    grid-column:3 / span 1;
+    grid-row:2/span 1;    
+    background-image:url("aaron.png");
+    object-fit:contain;
+    background-repeat:no-repeat;
+    mix-blend-mode:screen;   
+    box-shadow: 5px 5px 10px black inset, -5px -5px 10px black inset;
+    }
+    
+.founder{
+    display:flex;
+    background:rgba(255,255,255,0.5);
+    font:10px;
+    color:black;
+    font-size:50px;
+    font-family:monospace;
+    text-align:center;
+    margin:auto;
+    width:100%;
+    height:100%;
+    }    
+
+.text{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    backdrop-filter:blur(10px);
+    background:rgba(255,255,255,0.2);
+    visibility:hidden;
+}
+.founder:hover > .text{
+    visibility:visible;
+    }
+    
+.founder:hover{
+    filter:;
+    }
+
+#bckg3{
+    display:grid;
+    background-size:contain;
+    background-image:url("bckg4.png");
+    background-size:100% 100%;
+    box-sizing:border-box;
+    height:55.5em;
+    width:100%;
+    order:3;
+    background-attachment:fixed;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto;    
+    }
+    
+#t1{
+    display:flex;
+    border:2px solid green;
+    background-image:url("disco.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    width:auto;
+    height:250px;
+    }
+
+#t2{
+    display:flex;
+    border:2px solid green;
+    background-image:url("disco.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    width:auto;
+    height:250px;
+    }
+    
+#t3{
+   display:flex;
+    border:2px solid green;
+    background-image:url("disco.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    width:auto;
+    height:250px;
+    }
+    
+#t4{
+   display:flex;
+    border:2px solid green;
+    background-image:url("disco.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    width:auto;
+    height:250px;
+    }
+    
+#t5{
+   display:flex;
+    border:2px solid green;
+    background-image:url("disco.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    width:auto;
+    height:250px;
+    }
+    
+#t6{
+   display:flex;
+    border:2px solid green;
+    background-image:url("disco.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    width:auto;
+    height:250px;
+    }
+        
+#bckg4{
+    display:flex;
+    background-size:contain;
+    background-image:url("bckg3.png");
+    background-size:100% 100%;
+    box-sizing:border-box;
+    height:55.5em;
+    width:100%;
+    order:4;
+    background-attachment:fixed;
+    filter:drop-shadow(0px -15px 15px black) ;
+    }
+
+#banergrupo{
+
+    }
