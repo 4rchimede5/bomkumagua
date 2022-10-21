@@ -26,7 +26,7 @@
     animation-fill-mode:forwards;
     animation-timing-function:ease-in-out;  
     z-index:1;
-    background:url("publico.png");  
+    background:url("https://github.com/4rchimede5/bomkumaguas/blob/adde2b54711f7cacda6dcb745d7a6c03935ab9fd/publico.png");  
     background-size:cover;
     min-height:100%;
     min-width:100%;
@@ -81,7 +81,7 @@
 #bckg1{
     display:flex;
     background-size:contain;
-    background-image:url("https://github.com/4rchimede5/bomkumagu.github.io/blob/6360123a09a180ec76139c2dcf47da80569af698/bckg1.png");
+    background-image:url("https://github.com/4rchimede5/bomkumaguas/blob/adde2b54711f7cacda6dcb745d7a6c03935ab9fd/bckg1.png");
     background-size:100% 100%;
     height:55.5em;
     width:100%;display:grid;
@@ -139,7 +139,7 @@
     flex: 1 1 100px;
     grid-column:1 / span 1;
     grid-row:2/span 1;
-    background-image:url("https://github.com/4rchimede5/bomkumagu.github.io/blob/6360123a09a180ec76139c2dcf47da80569af698/alvaro.png");
+    background-image:url("https://github.com/4rchimede5/bomkumaguas/blob/adde2b54711f7cacda6dcb745d7a6c03935ab9fd/alvaro.png");
     background-repeat:no-repeat;
     mix-blend-mode:lighten;
     mix-blend-mode:exclusion;
@@ -165,7 +165,7 @@
     flex:1 1 100px;
     grid-column:3 / span 1;
     grid-row:2/span 1;    
-    background-image:url("https://github.com/4rchimede5/bomkumagu.github.io/blob/6360123a09a180ec76139c2dcf47da80569af698/aaron.png");
+    background-image:url("https://github.com/4rchimede5/bomkumaguas/blob/adde2b54711f7cacda6dcb745d7a6c03935ab9fd/aaron.png");
     object-fit:contain;
     background-repeat:no-repeat;
     mix-blend-mode:screen;   
@@ -204,7 +204,7 @@
 #bckg3{
     display:grid;
     background-size:contain;
-    background-image:url("https://github.com/4rchimede5/bomkumagu.github.io/blob/6360123a09a180ec76139c2dcf47da80569af698/bckg4.png");
+    background-image:url("https://github.com/4rchimede5/bomkumaguas/blob/adde2b54711f7cacda6dcb745d7a6c03935ab9fd/bckg4.png");
     background-size:100% 100%;
     box-sizing:border-box;
     height:55.5em;
@@ -218,7 +218,7 @@
 #t1{
     display:flex;
     border:2px solid green;
-    background-image:url("https://github.com/4rchimede5/bomkumagu.github.io/blob/6360123a09a180ec76139c2dcf47da80569af698/disco.png");
+    background-image:url("https://github.com/4rchimede5/bomkumaguas/blob/adde2b54711f7cacda6dcb745d7a6c03935ab9fd/disco.png");
     background-repeat:no-repeat;
     background-size:cover;
     margin:auto;
@@ -229,7 +229,7 @@
 #t2{
     display:flex;
     border:2px solid green;
-    background-image:url("https://github.com/4rchimede5/bomkumagu.github.io/blob/6360123a09a180ec76139c2dcf47da80569af698/disco.png");
+    background-image:url("https://github.com/4rchimede5/bomkumaguas/blob/adde2b54711f7cacda6dcb745d7a6c03935ab9fd/disco.png");
     background-repeat:no-repeat;
     background-size:cover;
     margin:auto;
