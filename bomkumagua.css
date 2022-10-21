@@ -26,7 +26,7 @@
     animation-fill-mode:forwards;
     animation-timing-function:ease-in-out;  
     z-index:1;
-    background:url("https://github.com/4rchimede5/bomkumaguas/blob/a5a183f90cc2ee030e1d9d83450fd19e35502b4d/publico.png");  
+    background:url("publico.png");  
     background-size:cover;
     min-height:100%;
     min-width:100%;
